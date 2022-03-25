@@ -1,0 +1,82 @@
+/* Navbar */
+#jumbotron{font-size:20px;padding:60px;background-color:#708ea8;text-align:center;color:#fff;}
+/* #main-navbar a{
+    border-bottom: 5px solid #56738C;
+}
+#main-navbar a:hover, #main-navbar .active{
+    border-bottom-color: rgb(255, 255, 255);
+    transition: border-color 1000ms;
+} */
+#showcase{
+    background: url('../images/bg.jpg');
+    height: 650px;
+    padding-top: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#showcase h1{
+    padding-top: 250px;
+}
+.btn3d {
+    transition:all .08s linear;
+    position:relative;
+    outline:medium none;
+    border:0px;
+    margin-right:10px;
+    margin-top:15px;
+}
+.btn3d:focus {
+    outline:medium none;
+    
+}
+.btn3d:active {
+    top:9px;
+}
+.term-service{
+    text-decoration: none;
+    color: black;
+}
+.btnGoogle{
+    background-color: rgb(235, 59, 59);
+}
+.btnGithub{
+    background-color: rgb(104, 104, 136);
+}
+#sudah{
+    text-decoration: none;
+    color: black;
+}
+
+.btn3d.btn-default {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f9f9f9;
+}
+.btn3d.btn-default:active,
+.btn3d.btn-default.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #f9f9f9;
+}
+.btn3d.btn-explore {
+	box-shadow: 0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #78d739;
+}
+
+.btn3d.btn-explore:active,
+.btn3d.btn-explore.active {
+	box-shadow: 0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #78d739;
+}
+.btn3d.btn-info {
+	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #348FD2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #39B3D7;
+}
+
+.btn3d.btn-info:active,
+.btn3d.btn-info.active {
+	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #39B3D7;
+}
